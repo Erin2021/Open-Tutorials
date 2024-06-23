@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 6.25%;
+  overflow-x: hidden;
+}
+
+body{
+  font-family: "NanumSquareAc",sans-serif;
+  overflow-x: hidden;
+}
+img{
+  max-width:100%;
+}
+li{list-style-type: none;}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+/* 낮은버전 브라우저용-시멘틱태그를 inline로 인식함*/
+article,aside,details,summary,figcaption,figure,footer,header,hgroup,main,nav,section{display:block;}
+
