@@ -1,7 +1,6 @@
 let funcObj={
   f_0:function(){
     const tl = gsap.timeline();
-    console.log('section0')
     tl.from("#section0 .rel>.text", {
       opacity: 0,
       stagger: 0.7,
