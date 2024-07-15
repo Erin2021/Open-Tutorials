@@ -620,7 +620,6 @@ header .header_left img{width:80rem;transition: 0.3s;}
   font-size: 15rem;
   color:var(--color--default)
 }
-
 #section5  .people {
   width:min(calc(100vw - 40rem),1300rem);
   margin:50rem auto 100rem;}

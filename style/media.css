@@ -45,6 +45,7 @@
   }
   #section3 .WEBcard:nth-of-type(3){margin:0;}
   .s3-slide  .arrow-group{display: none;}
+  
 }
 
 
@@ -208,7 +209,7 @@ header  {
   }
 
   #section3 .row_inner{
-    width: 1300px;
+    width: min(calc(100vw - 40rem),1300rem);
     margin-top: 100rem;
     
 
@@ -265,7 +266,7 @@ header  {
 
   #section5{height: 70vh;}
   #section5 .rel{
-    width:1300px;
+    width:min(calc(100vw - 40rem),1300rem);
     display: flex;
     justify-content: space-between;
   }
