@@ -159,7 +159,6 @@ header .header_left img{width:80rem;transition: 0.3s;}
 }
 
 /*🔥🔥 section0______________________________*/
-
 #section0{
   width:100%;
   /* background-color: red; */
@@ -174,7 +173,7 @@ header .header_left img{width:80rem;transition: 0.3s;}
 .text h1{
   font-family: var(--family-heading);
   letter-spacing:.005em;
-  font-size:8.4em;
+  font-size:8.3em;
   line-height: 130%;
   position:relative;
   text-shadow: 0.1em 0 1rem var(--color--txtshadow);
@@ -397,7 +396,7 @@ header .header_left img{width:80rem;transition: 0.3s;}
   align-items: center;
   position:relative;
   height: 308rem;
-  width: min(calc(100vw - 15rem), 1300rem);
+  width: min(calc(100vw - 40rem), 1300rem);
   /* 100%가 작동하지 않아 계산함 */
 }
 
@@ -584,7 +583,6 @@ header .header_left img{width:80rem;transition: 0.3s;}
   margin-bottom:45rem;
   translate: 0 100rem;
 }
-
 #section5 .des p{
   font-size: min(3.85em,20px);
   line-height: 1.3em;
@@ -603,8 +601,7 @@ header .header_left img{width:80rem;transition: 0.3s;}
   translate:-50%;
   margin-bottom: 100rem;
   width:95%;
-  opacity: 0;
-  
+  opacity: 0;  
 }
 
 #section5 .btn a{
@@ -625,13 +622,13 @@ header .header_left img{width:80rem;transition: 0.3s;}
 }
 
 #section5  .people {
-  width:min(calc(100vw - 15rem),1300rem);
+  width:min(calc(100vw - 40rem),1300rem);
   margin:50rem auto 100rem;}
 #section5  .people .peopleAni{
   background-color: var(--color--txtshadow);
   border-radius: 30rem;
-  width:min(calc(100vw - 30rem),450rem);
-  height: min(100em,550rem);
+  width:min(calc(100vw - 40rem),450rem);
+  height: min(100em,500rem);
   overflow: hidden;
   position: relative;
 }
